@@ -14,7 +14,7 @@ app.use((req, res, next) => {
     next();
 });
 
-const FIREBASE_URL = 'https://alertes-deriv-licenses-default-rtdb.europe-west1.firebasedatabase.app';
+const FIREBASE_URL = 'https://alertes-deriv-licenses-e0195-default-rtdb.europe-west1.firebasedatabase.app';
 
 // Storage
 let alerts = {};
